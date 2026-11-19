@@ -90,7 +90,11 @@ document.getElementById("projects").innerHTML = projects
   })
   .join("");
 
-// Filters
+// Filters (buttons for categories with nothing in them are hidden)
+document.querySelectorAll(".chip[data-filter]").forEach((chip) => {
+  const f = chip.dataset.filter;
+  if (f !== "all" && !projects.some((p) => p.category === f)) chip.hidden = true;
+});
 document.querySelectorAll(".chip").forEach((chip) =>
   chip.addEventListener("click", () => {
     document.querySelectorAll(".chip").forEach((c) => c.classList.toggle("active", c === chip));

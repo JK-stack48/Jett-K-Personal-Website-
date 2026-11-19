@@ -1,0 +1,4 @@
+meta: Research guide · 27 pages · 2026
+description: A breakdown of physical and financial oil and gas trading, and how traders profit from location, time and quality arbitrage while hedging price risk.
+tags: Trading, Arbitrage, Hedging
+order: 2

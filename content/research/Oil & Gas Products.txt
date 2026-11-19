@@ -1,0 +1,4 @@
+meta: Research guide · 21 pages · 2026
+description: A guide to crude oil, natural gas and the products made from them, from upstream crude grades (light/heavy, sweet/sour) to refined fuels.
+tags: Crude Oil, Refining, Products
+order: 4

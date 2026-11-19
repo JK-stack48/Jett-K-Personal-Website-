@@ -1,0 +1,4 @@
+meta: Research guide · 53 pages · 2026
+description: How oil and gas get from the wellhead to the most valuable market: marketing strategy, logistics, sales, risk management and market analysis across the value chain.
+tags: Energy Marketing, Logistics, Risk Management
+order: 1

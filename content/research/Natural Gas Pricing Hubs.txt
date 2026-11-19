@@ -1,0 +1,4 @@
+meta: Research guide · 15 pages · 2026
+description: What natural gas pricing hubs are, why they exist, and how physical and virtual hubs set regional benchmark prices across pipeline networks.
+tags: Natural Gas, Pricing, Benchmarks
+order: 3
