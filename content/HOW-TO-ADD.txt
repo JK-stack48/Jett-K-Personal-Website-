@@ -1,0 +1,25 @@
+Adding work to the site
+=======================
+
+1. Drop the file into the folder for its type:
+     research/  papers and reports (PDF)
+     models/    Excel models (.xlsx), plus an optional PDF summary
+     decks/     pitch decks (export to PDF so they open on the site; .pptx becomes a download)
+
+2. That's it. The file name becomes the card title ("Grid_Storage-Economics.pdf" -> "Grid Storage Economics").
+
+Optional extras, using the SAME file name:
+   Tesla DCF.png   cover image for the card
+   Tesla DCF.txt   details, one per line, e.g.
+
+     title: Tesla DCF Valuation
+     meta: DCF · Excel · 2026
+     description: Valued Tesla on a 10-year DCF.
+     tags: DCF, Autos
+     highlights: Implied price = $215 | Upside = 12% | WACC = 8.5%
+     links: Article = https://example.com
+     order: 1
+     hide: yes
+
+Newest files show first unless you set "order".
+To remove something from the site, delete its files or add "hide: yes".

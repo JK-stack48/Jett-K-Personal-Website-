@@ -1,0 +1,63 @@
+/* Terminal / code theme. Loaded after styles.css and overrides it. */
+:root, :root[data-theme="light"] {
+  --bg: #ffffff;
+  --bg-2: #f3f7fd;
+  --surface: #ffffff;
+  --text: #0b1b33;
+  --muted: #4a5d7a;
+  --border: #d6e2f3;
+  --grid: rgba(29, 78, 216, .05);
+  --accent: #1d4ed8;
+  --accent-text: #ffffff;
+  --research: #1d4ed8;
+  --models: #0284c7;
+  --decks: #4f46e5;
+  --radius: 4px;
+  --display: "JetBrains Mono", ui-monospace, monospace;
+  color-scheme: light;
+}
+body { font-family: var(--mono); font-size: 15px; }
+#theme-toggle { display: none; }
+
+
+.hero { background-image: none; isolation: isolate; background: linear-gradient(180deg, #f5f9ff, #ffffff); }
+#rain { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -1; opacity: .5;
+  -webkit-mask-image: linear-gradient(90deg, transparent 45%, #000 80%); mask-image: linear-gradient(90deg, transparent 45%, #000 80%); }
+.prompt { color: var(--muted); margin: 0 0 18px; font-size: .9rem; }
+.prompt #typed { color: var(--accent); }
+.caret { color: var(--accent); animation: blink 1s steps(1) infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+.eyebrow { border-radius: 2px; background: transparent; }
+.hero h1 { font-weight: 700; letter-spacing: -.04em; color: var(--accent);  }
+.lead { font-size: 1rem; }
+.lead::before { content: "// "; color: var(--accent); opacity: .7; }
+
+.btn { border-radius: 2px; font-family: var(--mono); font-size: .88rem; text-transform: lowercase; }
+.btn.primary::before { content: "> "; }
+.btn.primary { box-shadow: 0 4px 14px rgba(29,78,216,.25); }
+
+.section-head .num::before { content: "["; } .section-head .num::after { content: "]"; }
+.section-head h2::before { content: "./"; color: var(--muted); }
+.section-head h2 { text-transform: lowercase; font-weight: 600; }
+
+.chip { border-radius: 2px; text-transform: lowercase; }
+.chip.active { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+.chip.active::before { content: "* "; }
+
+.card { box-shadow: inset 0 0 0 1px transparent; }
+.card:hover { box-shadow: 0 8px 24px rgba(29,78,216,.10); }
+.card h3 { font-size: 1.05rem; }
+.card h3::before { content: "$ "; color: var(--muted); }
+.card .kind::before { width: auto; height: auto; background: none; content: "#"; }
+.card p { font-size: .88rem; }
+.highlights div { border-color: var(--border); }
+.highlights dd { color: var(--accent); }
+.tags li { border-radius: 2px; }
+.tags li::before { content: "--"; opacity: .6; }
+
+.panel h3 { text-transform: lowercase; }
+.panel h3::before { content: "$ cat "; }
+.contact-row p::before { content: "> "; color: var(--accent); }
+.bolt { border-radius: 0; animation: blink 1.2s steps(1) infinite; }
+
+@media (prefers-reduced-motion: reduce) { .caret, .bolt { animation: none; } }
