@@ -19,6 +19,8 @@ Optional details file (.txt), one "key: value" per line, all optional:
     highlights: Implied price = $215 | Upside = 12% | WACC = 8.5%
     links: Code = https://github.com/... | Article = https://...
     embed: https://docs.google.com/presentation/d/.../embed
+    badge: My slides     (highlighted label shown at the top of the card)
+    button: View my slides  (custom text for the view button)
     order: 1            (lower shows first; otherwise newest first)
     hide: yes           (keep it off the site)
 Anything after a line with only "---" is ignored (handy for notes).
@@ -98,6 +100,8 @@ def build():
                 "image": rel(by["image"]) if by["image"] else "",
                 "pdf": rel(by["doc"]) if by["doc"] else "",
                 "embed": d.get("embed", ""),
+                "badge": d.get("badge", ""),
+                "view_label": d.get("button", ""),
                 "download": rel(by["download"]) if by["download"] else "",
                 "links": [{"label": k, "url": v} for k, v in pairs(d.get("links", ""))],
                 "_order": float(d["order"]) if re.fullmatch(r"-?\d+(\.\d+)?", d.get("order", "")) else None,

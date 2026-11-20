@@ -1,3 +1,5 @@
 title: Pembina Pipeline Corporation (TSX: PPL)
-meta: CFAC Portfolio Management · Nov 2025 · My slides
-description: An equity pitch on Pembina Pipeline from the CFAC Portfolio Management team, where I was a Junior Analyst. The full deck was a team effort; the slides shown here are the ones I built myself. They cover natural gas as a bridge fuel in the energy transition, rising global energy demand, and how China's shift away from coal and Pembina's West Coast export assets (Cedar LNG and the Prince Rupert Terminal) support long-term contracted revenue growth.
+meta: CFAC Portfolio Management · Nov 2025
+description: An equity pitch on Pembina Pipeline from the CFAC Portfolio Management team, where I was a Junior Analyst. The full deck was a team effort. Every slide shown here is one I built myself. They cover natural gas as a bridge fuel in the energy transition, rising global energy demand, and how China's shift away from coal and Pembina's West Coast export assets (Cedar LNG and the Prince Rupert Terminal) support long-term contracted revenue growth.
+badge: My slides · Built by Jett
+button: View my slides

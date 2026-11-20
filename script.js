@@ -75,13 +75,14 @@ document.getElementById("projects").innerHTML = projects
       <div class="thumb">${p.image ? `<img src="${esc(p.image)}" alt="${esc(p.title)} cover" loading="lazy" />` : (LINES[p.category] || "")}</div>
       <div class="body">
         <span class="kind">${esc(LABELS[p.category] || "")}</span>
+        ${p.badge ? `<span class="badge">${esc(p.badge)}</span>` : ""}
         <h3>${esc(p.title)}</h3>
         ${p.meta ? `<span class="meta">${esc(p.meta)}</span>` : ""}
         <p>${esc(p.description)}</p>
         ${p.category === "decks" ? `<p class="note">Prepared in a student learning environment for educational purposes. Some figures or conclusions may be inaccurate, and nothing here is investment advice.</p>` : ""}
         ${p.highlights ? `<dl class="highlights">${p.highlights.map((h) => `<div><dt>${esc(h.label)}</dt><dd>${esc(h.value)}</dd></div>`).join("")}</dl>` : ""}
         <div class="links">
-          ${doc ? `<button data-view="${i}">${esc(VIEW_LABEL[p.category] || "View")} →</button>` : ""}
+          ${doc ? `<button data-view="${i}">${esc(p.view_label || VIEW_LABEL[p.category] || "View")} →</button>` : ""}
           ${p.download ? `<a href="${esc(p.download)}" download>Download ${esc((p.download.split(".").pop() || "").toUpperCase())} ↓</a>` : ""}
           ${(p.links || []).map((l) => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)} →</a>`).join("")}
         </div>

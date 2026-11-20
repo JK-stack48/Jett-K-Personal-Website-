@@ -87,3 +87,4 @@ body { font-family: var(--mono); font-size: 15px; }
 .logo { white-space: nowrap; }
 @media (max-width: 720px) { .logo { letter-spacing: .04em; font-size: .7rem; gap: 6px; } .nav nav { gap: 10px; } .nav nav a { font-size: .74rem; } }
 @media (max-width: 400px) { .nav nav a[href="#certifications"] { display: none; } }
+.badge { align-self: flex-start; background: var(--accent); color: var(--accent-text); font-size: .74rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; padding: 4px 10px; border-radius: 3px; }

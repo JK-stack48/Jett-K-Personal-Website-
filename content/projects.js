@@ -13,6 +13,8 @@ window.PROJECTS = [
     "image": "content/research/Energy Marketing for Oil & Gas.jpg",
     "pdf": "content/research/Energy Marketing for Oil & Gas.pdf",
     "embed": "",
+    "badge": "",
+    "view_label": "",
     "download": "",
     "links": []
   },
@@ -29,6 +31,8 @@ window.PROJECTS = [
     "image": "content/research/Oil & Gas Trading.jpg",
     "pdf": "content/research/Oil & Gas Trading.pdf",
     "embed": "",
+    "badge": "",
+    "view_label": "",
     "download": "",
     "links": []
   },
@@ -45,6 +49,8 @@ window.PROJECTS = [
     "image": "content/research/Natural Gas Pricing Hubs.jpg",
     "pdf": "content/research/Natural Gas Pricing Hubs.pdf",
     "embed": "",
+    "badge": "",
+    "view_label": "",
     "download": "",
     "links": []
   },
@@ -61,30 +67,8 @@ window.PROJECTS = [
     "image": "content/research/Oil & Gas Products.jpg",
     "pdf": "content/research/Oil & Gas Products.pdf",
     "embed": "",
-    "download": "",
-    "links": []
-  },
-  {
-    "category": "decks",
-    "title": "Pembina Pipeline Corporation (TSX: PPL)",
-    "meta": "CFAC Portfolio Management · Nov 2025 · My slides",
-    "description": "An equity pitch on Pembina Pipeline from the CFAC Portfolio Management team, where I was a Junior Analyst. The full deck was a team effort; the slides shown here are the ones I built myself. They cover natural gas as a bridge fuel in the energy transition, rising global energy demand, and how China's shift away from coal and Pembina's West Coast export assets (Cedar LNG and the Prince Rupert Terminal) support long-term contracted revenue growth.",
-    "tags": [],
-    "image": "content/decks/Pembina Pipeline (PPL) Pitch.jpg",
-    "pdf": "content/decks/Pembina Pipeline (PPL) Pitch.pdf",
-    "embed": "",
-    "download": "",
-    "links": []
-  },
-  {
-    "category": "decks",
-    "title": "Constellation Energy (NASDAQ: CEG)",
-    "meta": "CFAC Portfolio Management · Mar 2026 · My slides",
-    "description": "An equity pitch on Constellation Energy from the CFAC Portfolio Management team, where I was a Junior Analyst. The full deck was a team effort; the slides shown here are the ones I built myself. They cover how U.S. competitive power markets set prices, the demand pull from data centers and electrification, how the nuclear Production Tax Credit puts a floor under Constellation's earnings, and the key risks and catalysts.",
-    "tags": [],
-    "image": "content/decks/Constellation Energy (CEG) Pitch.jpg",
-    "pdf": "content/decks/Constellation Energy (CEG) Pitch.pdf",
-    "embed": "",
+    "badge": "",
+    "view_label": "",
     "download": "",
     "links": []
   },
@@ -97,6 +81,8 @@ window.PROJECTS = [
     "image": "content/decks/Short AECO Basis Pitch.jpg",
     "pdf": "content/decks/Short AECO Basis Pitch.pdf",
     "embed": "",
+    "badge": "",
+    "view_label": "",
     "download": "",
     "links": [],
     "highlights": [
@@ -115,6 +101,34 @@ window.PROJECTS = [
     ]
   },
   {
+    "category": "decks",
+    "title": "Pembina Pipeline Corporation (TSX: PPL)",
+    "meta": "CFAC Portfolio Management · Nov 2025",
+    "description": "An equity pitch on Pembina Pipeline from the CFAC Portfolio Management team, where I was a Junior Analyst. The full deck was a team effort. Every slide shown here is one I built myself. They cover natural gas as a bridge fuel in the energy transition, rising global energy demand, and how China's shift away from coal and Pembina's West Coast export assets (Cedar LNG and the Prince Rupert Terminal) support long-term contracted revenue growth.",
+    "tags": [],
+    "image": "content/decks/Pembina Pipeline (PPL) Pitch.jpg",
+    "pdf": "content/decks/Pembina Pipeline (PPL) Pitch.pdf",
+    "embed": "",
+    "badge": "My slides · Built by Jett",
+    "view_label": "View my slides",
+    "download": "",
+    "links": []
+  },
+  {
+    "category": "decks",
+    "title": "Constellation Energy (NASDAQ: CEG)",
+    "meta": "CFAC Portfolio Management · Mar 2026",
+    "description": "An equity pitch on Constellation Energy from the CFAC Portfolio Management team, where I was a Junior Analyst. The full deck was a team effort. Every slide shown here is one I built myself. They cover how U.S. competitive power markets set prices, the demand pull from data centers and electrification, how the nuclear Production Tax Credit puts a floor under Constellation's earnings, and the key risks and catalysts.",
+    "tags": [],
+    "image": "content/decks/Constellation Energy (CEG) Pitch.jpg",
+    "pdf": "content/decks/Constellation Energy (CEG) Pitch.pdf",
+    "embed": "",
+    "badge": "My slides · Built by Jett",
+    "view_label": "View my slides",
+    "download": "",
+    "links": []
+  },
+  {
     "category": "models",
     "title": "Commodity Trade Blotter",
     "meta": "Excel + VBA · 2026",
@@ -123,6 +137,8 @@ window.PROJECTS = [
     "image": "",
     "pdf": "",
     "embed": "",
+    "badge": "",
+    "view_label": "",
     "download": "content/models/Commodity Trade Blotter.xlsm",
     "links": [],
     "highlights": [
