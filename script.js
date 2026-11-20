@@ -57,7 +57,7 @@ const generated = Array.isArray(window.PROJECTS) ? window.PROJECTS : [];
 const projects = generated.length || manualProjects.length ? [...generated, ...manualProjects] : exampleProjects;
 
 // ---- Rendering (no need to edit below) ----
-const LABELS = { research: "Research", models: "Financial Model", decks: "Pitch Deck" };
+const LABELS = { research: "Research", models: "Financial Model", decks: "Pitch" };
 const VIEW_LABEL = { research: "Read paper", models: "View summary", decks: "View deck" };
 // Decorative line charts shown on cards that have no cover image
 const LINES = {
@@ -78,6 +78,7 @@ document.getElementById("projects").innerHTML = projects
         <h3>${esc(p.title)}</h3>
         ${p.meta ? `<span class="meta">${esc(p.meta)}</span>` : ""}
         <p>${esc(p.description)}</p>
+        ${p.category === "decks" ? `<p class="note">Prepared in a student learning environment for educational purposes. Some figures or conclusions may be inaccurate, and nothing here is investment advice.</p>` : ""}
         ${p.highlights ? `<dl class="highlights">${p.highlights.map((h) => `<div><dt>${esc(h.label)}</dt><dd>${esc(h.value)}</dd></div>`).join("")}</dl>` : ""}
         <div class="links">
           ${doc ? `<button data-view="${i}">${esc(VIEW_LABEL[p.category] || "View")} →</button>` : ""}

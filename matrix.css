@@ -75,3 +75,4 @@ body { font-family: var(--mono); font-size: 15px; }
 .role-where { margin: 2px 0 0; color: var(--muted); font-size: .85rem; }
 @media (max-width: 720px) { .role { grid-template-columns: 1fr; gap: 4px; padding-left: 20px; } }
 .role-desc { margin: 2px 0 0; color: var(--muted); font-size: .9rem; }
+.card p.note { font-size: .78rem; font-style: italic; color: var(--muted); border-left: 2px solid var(--border); padding-left: 10px; }
