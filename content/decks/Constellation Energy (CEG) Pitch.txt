@@ -1,3 +1,3 @@
 title: Constellation Energy (NASDAQ: CEG)
-meta: CFAC Portfolio Management · Mar 2026 · Selected slides
-description: An equity pitch on Constellation Energy, built as a Junior Analyst on the CFAC Portfolio Management team. It covers how U.S. competitive power markets set prices, the demand pull from data centers and electrification, how the nuclear Production Tax Credit puts a floor under Constellation's earnings, and the key risks and catalysts.
+meta: CFAC Portfolio Management · Mar 2026 · My slides
+description: An equity pitch on Constellation Energy from the CFAC Portfolio Management team, where I was a Junior Analyst. The full deck was a team effort; the slides shown here are the ones I built myself. They cover how U.S. competitive power markets set prices, the demand pull from data centers and electrification, how the nuclear Production Tax Credit puts a floor under Constellation's earnings, and the key risks and catalysts.

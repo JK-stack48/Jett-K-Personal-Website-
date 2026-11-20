@@ -67,8 +67,8 @@ window.PROJECTS = [
   {
     "category": "decks",
     "title": "Pembina Pipeline Corporation (TSX: PPL)",
-    "meta": "CFAC Portfolio Management · Nov 2025 · Selected slides",
-    "description": "An equity pitch on Pembina Pipeline, built as a Junior Analyst on the CFAC Portfolio Management team. It covers natural gas as a bridge fuel in the energy transition, rising global energy demand, and how China's shift away from coal and Pembina's West Coast export assets (Cedar LNG and the Prince Rupert Terminal) support long-term contracted revenue growth.",
+    "meta": "CFAC Portfolio Management · Nov 2025 · My slides",
+    "description": "An equity pitch on Pembina Pipeline from the CFAC Portfolio Management team, where I was a Junior Analyst. The full deck was a team effort; the slides shown here are the ones I built myself. They cover natural gas as a bridge fuel in the energy transition, rising global energy demand, and how China's shift away from coal and Pembina's West Coast export assets (Cedar LNG and the Prince Rupert Terminal) support long-term contracted revenue growth.",
     "tags": [],
     "image": "content/decks/Pembina Pipeline (PPL) Pitch.jpg",
     "pdf": "content/decks/Pembina Pipeline (PPL) Pitch.pdf",
@@ -79,8 +79,8 @@ window.PROJECTS = [
   {
     "category": "decks",
     "title": "Constellation Energy (NASDAQ: CEG)",
-    "meta": "CFAC Portfolio Management · Mar 2026 · Selected slides",
-    "description": "An equity pitch on Constellation Energy, built as a Junior Analyst on the CFAC Portfolio Management team. It covers how U.S. competitive power markets set prices, the demand pull from data centers and electrification, how the nuclear Production Tax Credit puts a floor under Constellation's earnings, and the key risks and catalysts.",
+    "meta": "CFAC Portfolio Management · Mar 2026 · My slides",
+    "description": "An equity pitch on Constellation Energy from the CFAC Portfolio Management team, where I was a Junior Analyst. The full deck was a team effort; the slides shown here are the ones I built myself. They cover how U.S. competitive power markets set prices, the demand pull from data centers and electrification, how the nuclear Production Tax Credit puts a floor under Constellation's earnings, and the key risks and catalysts.",
     "tags": [],
     "image": "content/decks/Constellation Energy (CEG) Pitch.jpg",
     "pdf": "content/decks/Constellation Energy (CEG) Pitch.pdf",
