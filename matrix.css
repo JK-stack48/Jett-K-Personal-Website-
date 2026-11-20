@@ -47,8 +47,7 @@ body { font-family: var(--mono); font-size: 15px; }
 .card { box-shadow: inset 0 0 0 1px transparent; }
 .card:hover { box-shadow: 0 8px 24px rgba(29,78,216,.10); }
 .card h3 { font-size: 1.05rem; }
-.card h3::before { content: "$ "; color: var(--muted); }
-.card .kind::before { width: auto; height: auto; background: none; content: "#"; }
+.card .kind { display: none; }
 .card p { font-size: .88rem; }
 .highlights div { border-color: var(--border); }
 .highlights dd { color: var(--accent); }
@@ -56,7 +55,6 @@ body { font-family: var(--mono); font-size: 15px; }
 .tags li::before { content: "--"; opacity: .6; }
 
 .panel h3 { text-transform: lowercase; }
-.panel h3::before { content: "$ cat "; }
 .contact-row p::before { content: "> "; color: var(--accent); }
 .bolt { border-radius: 0; animation: blink 1.2s steps(1) infinite; }
 
