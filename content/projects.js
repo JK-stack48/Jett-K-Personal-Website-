@@ -66,6 +66,18 @@ window.PROJECTS = [
   },
   {
     "category": "decks",
+    "title": "Constellation Energy (NASDAQ: CEG)",
+    "meta": "CFAC Portfolio Management · Mar 2026 · Selected slides",
+    "description": "An equity pitch on Constellation Energy, built as a Junior Analyst on the CFAC Portfolio Management team. It covers how U.S. competitive power markets set prices, the demand pull from data centers and electrification, how the nuclear Production Tax Credit puts a floor under Constellation's earnings, and the key risks and catalysts.",
+    "tags": [],
+    "image": "content/decks/Constellation Energy (CEG) Pitch.jpg",
+    "pdf": "content/decks/Constellation Energy (CEG) Pitch.pdf",
+    "embed": "",
+    "download": "",
+    "links": []
+  },
+  {
+    "category": "decks",
     "title": "Short AECO–Henry Hub Summer Basis",
     "meta": "Undergraduate Commodities Competition · Sep 2026 · 21 slides",
     "description": "A team pitch to short the ICE AB-NIT (AECO) to Henry Hub basis for the Apr–Oct 2027 summer strip. Western Canada produces far more gas than it can burn or ship out, a strong El Niño winter points to a high storage carry-in, and Henry Hub has a growing LNG bid on the other side. Built with Cole Kershaw, Santiago Lopez and Anderson Ko.",
