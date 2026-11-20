@@ -74,3 +74,4 @@ body { font-family: var(--mono); font-size: 15px; }
 .role-team { margin: 0; color: var(--text); }
 .role-where { margin: 2px 0 0; color: var(--muted); font-size: .85rem; }
 @media (max-width: 720px) { .role { grid-template-columns: 1fr; gap: 4px; padding-left: 20px; } }
+.role-desc { margin: 2px 0 0; color: var(--muted); font-size: .9rem; }
