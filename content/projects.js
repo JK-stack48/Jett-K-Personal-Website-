@@ -65,6 +65,32 @@ window.PROJECTS = [
     "links": []
   },
   {
+    "category": "decks",
+    "title": "Short AECO–Henry Hub Summer Basis",
+    "meta": "Undergraduate Commodities Competition · Sep 2026 · 21 slides",
+    "description": "A team pitch to short the ICE AB-NIT (AECO) to Henry Hub basis for the Apr–Oct 2027 summer strip. Western Canada produces far more gas than it can burn or ship out, a strong El Niño winter points to a high storage carry-in, and Henry Hub has a growing LNG bid on the other side. Built with Cole Kershaw, Santiago Lopez and Anderson Ko.",
+    "tags": [],
+    "image": "content/decks/Short AECO Basis Pitch.jpg",
+    "pdf": "content/decks/Short AECO Basis Pitch.pdf",
+    "embed": "",
+    "download": "",
+    "links": [],
+    "highlights": [
+      {
+        "label": "Reward/Risk",
+        "value": "2.80:1"
+      },
+      {
+        "label": "Strip",
+        "value": "Apr–Oct 2027"
+      },
+      {
+        "label": "Entry",
+        "value": "Jan 1, 2027"
+      }
+    ]
+  },
+  {
     "category": "models",
     "title": "Commodity Trade Blotter",
     "meta": "Excel + VBA · 2026",
