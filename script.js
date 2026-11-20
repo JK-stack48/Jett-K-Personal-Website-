@@ -79,7 +79,6 @@ document.getElementById("projects").innerHTML = projects
         ${p.meta ? `<span class="meta">${esc(p.meta)}</span>` : ""}
         <p>${esc(p.description)}</p>
         ${p.highlights ? `<dl class="highlights">${p.highlights.map((h) => `<div><dt>${esc(h.label)}</dt><dd>${esc(h.value)}</dd></div>`).join("")}</dl>` : ""}
-        <ul class="tags">${(p.tags || []).map((t) => `<li>${esc(t)}</li>`).join("")}</ul>
         <div class="links">
           ${doc ? `<button data-view="${i}">${esc(VIEW_LABEL[p.category] || "View")} →</button>` : ""}
           ${p.download ? `<a href="${esc(p.download)}" download>Download ${esc((p.download.split(".").pop() || "").toUpperCase())} ↓</a>` : ""}
