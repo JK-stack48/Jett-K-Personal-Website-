@@ -62,3 +62,15 @@ body { font-family: var(--mono); font-size: 15px; }
 
 @media (prefers-reduced-motion: reduce) { .caret, .bolt { animation: none; } }
 
+
+/* Experience timeline */
+.timeline { list-style: none; margin: 0; padding: 0; border-left: 1px solid var(--border); }
+.role { position: relative; display: grid; grid-template-columns: 190px 1fr; gap: 24px; padding: 0 0 32px 28px; }
+.role:last-child { padding-bottom: 0; }
+.role::before { content: ""; position: absolute; left: -5px; top: 7px; width: 9px; height: 9px; background: var(--accent); border-radius: 2px; }
+.role-when { color: var(--muted); font-size: .85rem; padding-top: 2px; }
+.role h3 { font-size: 1.1rem; margin: 0 0 4px; }
+.role-at { color: var(--accent); font-weight: 500; }
+.role-team { margin: 0; color: var(--text); }
+.role-where { margin: 2px 0 0; color: var(--muted); font-size: .85rem; }
+@media (max-width: 720px) { .role { grid-template-columns: 1fr; gap: 4px; padding-left: 20px; } }
