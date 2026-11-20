@@ -63,5 +63,31 @@ window.PROJECTS = [
     "embed": "",
     "download": "",
     "links": []
+  },
+  {
+    "category": "models",
+    "title": "Commodity Trade Blotter",
+    "meta": "Excel + VBA · 2026",
+    "description": "A trade capture and position tool for WTI, Brent, WCS, Henry Hub and AECO. Trades entered on a form are logged to a blotter by macro, positions and average cost update automatically, and realized and unrealized P&L are tracked against market prices pulled from Yahoo Finance.",
+    "tags": [],
+    "image": "",
+    "pdf": "",
+    "embed": "",
+    "download": "content/models/Commodity Trade Blotter.xlsm",
+    "links": [],
+    "highlights": [
+      {
+        "label": "Commodities",
+        "value": "5"
+      },
+      {
+        "label": "Live prices",
+        "value": "Yahoo"
+      },
+      {
+        "label": "P&L",
+        "value": "Realized + Unrealized"
+      }
+    ]
   }
 ];
